@@ -40,11 +40,19 @@ section {
     font-family: 'Montserrat', sans-serif;
 }
 
+#tomorrow {
+    background: #f4f4f4;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 footer {
     background: #333;
     color: #fff;
     padding: 10px 0;
-    text-align: center;
+    etext-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -81,3 +89,20 @@ footer {
     border: 2px solid #fff;
     
 }
+
+.skill-container {
+    width: 100%;
+    background: #ddd;
+    border-radius: 25px;
+    margin: 10px 0;
+}
+
+.skill-bar {
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+.html { width: 70%; background: #f44336;}
