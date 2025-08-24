@@ -5,10 +5,67 @@ body {
 
 header {
     background: #333;
-    color: #fff;
-    padding: 10px 0;
+    color: white;
+    padding: 10% 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+}
+
+#listbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    border-radius: 0px 0px 20px 20px;
+    border: 2px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+#listbar li {
+    margin: 1,5%;
+    float: left;
+    width: 25%;
+}
+
+#listbar li a {
+    background-color: #333;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+#listbar li a:hover {
+    background-color: #111;
+    border-radius: 10px;
+}
+
+.listbarup {
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: #333;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.listbarup:hover {
+    background-color: #111;
+    border-radius: 10px;
+}
+
+#textdiv {
+    margin: 25px;
+    padding: 25px;
 }
 
 section {
@@ -54,6 +111,8 @@ footer {
     padding: 10px 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    border: 2px solid #ccc;
+    border-radius: 20px 20px 0px 0px;
 }
 
 #name  {
@@ -75,26 +134,28 @@ footer {
 }
 
 #submitbutton {
-    border-radius: 10px;
+    border-radius: 20px;
     background: #fff;
-    color: black;
+    color: #333;
     padding: 10px 15px;
     border: 2px solid black;
     cursor: pointer;
 }
 
 #submitbutton:hover {
-    background: black;
-    color: #fff;
-    border: 2px solid #fff;
+    background: white;
+    color: #333;
+    border: 2px solid black;
+    border-radius: 10px;
     
 }
 
 .skill-container {
     width: 100%;
-    background: #ddd;
+    background: #f44336;
     border-radius: 25px;
-    margin: 10px 0;
+    margin: 10px 0px;
+    border: 3px solid #ccc;
 }
 
 .skill-bar {
@@ -105,4 +166,6 @@ footer {
     line-height: 25px;
 }
 
-.html { width: 70%; background: #f44336;}
+.html { width: 70%; background: limegreen ; border: 3px solid #ccc;}
+.css { width: 50%; background: limegreen ; border: 3px solid #ccc;}
+.js { width: 30%; background: limegreen ; border: 3px solid #ccc;}

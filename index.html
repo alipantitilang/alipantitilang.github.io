@@ -7,9 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <ul id="listbar">
+            <li><a href="#introduce"><b>Introduce</b></a></li>
+            <li><a href="#skills"><b>Skills</b></a></li>
+            <li><a href="#projects"><b>Projects</b></a></li>
+            <li><a href="#tomorrow"><b>Tomorrow's Goals</b></a></li>
+        </ul>
+    </nav><br>
     <header>
-        <h1>Hai Semua! Selamat datang di Portofolio <b></b>Si Anti Tilang</h1>
-        <h3>Karna berimpian itu <b>Bebas</b>, gak ada yang <b>Halangin</b></h3>
+        <div id="textdiv">
+            <h1>Hai Semua! Selamat datang di Portofolio <b></b>Si Anti Tilang</h1>
+            <h3>Karna berimpian itu <b>Bebas</b>, gak ada yang <b>Halangin</b></h3>
+        </div>
     </header>
     <section>
         <div id="introduce" style="text-align: center;">
@@ -17,12 +27,20 @@
             <p>Hai! <br><br> Nama Saya <b>Alif Falihin</b>, atau bisa di panggil <b>Alip Anti Tilang</b></p>
             <p>Saya adalah seorang <b>Web Developer</b> yang berdedikasi untuk menciptakan solusi <b>Inovatif</b> dalam bidang teknologi informasi.</p>
         </div><br>
+        <a href="#listbar" class="listbarup"><b>UP</b></a><br>
         <div id="skills">
             <h1 style="text-align: center;">Skills</h1>
             <div class="skill-container">
                 <div class="skill-bar html" style="color: black;"><b>HTML : 70%</b></div>
             </div>
+            <div class="skill-container">
+                <div class="skill-bar css" style="color: black;"><b>CSS : 50%</b></div>
+            </div>
+            <div class="skill-container">
+                <div class="skill-bar js" style="color: black;"><b>JS : 30%</b></div>
+            </div>
         </div><br>
+        <a href="#listbar" class="listbarup"><b>UP</b></a><br>
         <div id="projects">
             <h1 style="text-align: center;">Projects</h1>
             <ul>
@@ -30,13 +48,15 @@
                 <li><b>Profile GitHub</b> - Membuat Profile GitHub</li> 
             </ul>
         </div><br>
+        <a href="#listbar" class="listbarup"><b>UP</b></a><br>
         <div id="tomorrow">
             <h1 style="text-align: center;">Tomorrow's Goals</h1>
             <ul>
                 <li>Belajar lebih dalam tentang <b>React</b></li>
                 <li>Mengerjakan proyek <b>Open Source</b></li>
             </ul>
-        </div>
+        </div><br>
+        <a href="#listbar" class="listbarup"><b>UP</b></a>
     </section>
     <footer>
         <form action="">
@@ -47,7 +67,7 @@
             <input type="email" id="email" name="email" value="@gmail.com" required><br><br>
             <label for="message"><b>Message</b></label><br><br>
             <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-            <button id="submitbutton" type="submit" onclick="alert('Terkirim!')">Kirim</button>
+            <button id="submitbutton" type="submit" onclick="alert('Terkirim!')"><b>Kirim</b></button>
         </form>
     </footer>
 </body>
