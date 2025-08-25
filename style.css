@@ -97,6 +97,28 @@ section {
     font-family: 'Montserrat', sans-serif;
 }
 
+.project {
+    background: #fff;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project img {
+    border: 2px solid #ccc;
+    max-width: 10%;
+    height: auto;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.project img:hover {
+    height: auto;
+    max-width: 100%;
+}
+
 #tomorrow {
     background: #f4f4f4;
     padding: 10px;
