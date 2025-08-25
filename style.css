@@ -139,7 +139,7 @@ footer {
 #name  {
     border-radius: 10px;
     height: 100px;
-    width: 95%;
+    width: 90%;
     border: 2px solid black;
     margin: 20px;
 }
@@ -147,7 +147,7 @@ footer {
 #email {
     border-radius: 10px;
     height: 100px;
-    width: 95%;
+    width: 90%;
     border: 2px solid black;
     margin: 20px;
 }
@@ -155,7 +155,7 @@ footer {
 #message {
     border-radius: 10px;
     height: 100px;
-    width: 95%;
+    width: 90%;
     border: 2px solid black;
     margin: 20px;
 }
