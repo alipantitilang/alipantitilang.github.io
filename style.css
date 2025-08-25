@@ -141,7 +141,7 @@ footer {
     height: 25px;
     width: 95%;
     border: 2px solid black;
-    margin: 10px;
+    margin: 20px;
 }
 
 #email {
@@ -149,7 +149,7 @@ footer {
     height: 25px;
     width: 95%;
     border: 2px solid black;
-    margin: 10px;
+    margin: 20px;
 }
 
 #message {
@@ -157,7 +157,7 @@ footer {
     height: 100px;
     width: 95%;
     border: 2px solid black;
-    margin: 10px;
+    margin: 20px;
 }
 
 #submitbutton {
